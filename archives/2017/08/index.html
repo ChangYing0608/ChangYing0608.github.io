@@ -1,11 +1,7 @@
 extends partial/layout
 
 block site_title
-  != page.title + " | " + config.title
-
-block description
-  - var desc = page.desc || page.title + ' - ' + config.author;
-  meta(name="description", content=desc)
+  != __('archive') + " | " + config.title
 
 block header
   header.site-header
@@ -20,15 +16,14 @@ block header
 
 block content
   include mixins/post
-  +post(page)
+  +postList()
 
 block sidebar
   include partial/sidebar
 
 block pagination
   include mixins/paginator
-  +post()
-  include partial/comment
+  +home()
 
 block copyright
   include partial/footer
