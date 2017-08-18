@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ChangYing0608.github.io/"/>
-  <updated>2017-08-18T06:27:46.710Z</updated>
+  <updated>2017-08-18T08:12:26.062Z</updated>
   <id>https://ChangYing0608.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://ChangYing0608.github.io/2017/08/18/css%E5%B8%83%E5%B1%80%E6%95%B4%E7%90%86/"/>
     <id>https://ChangYing0608.github.io/2017/08/18/css布局整理/</id>
     <published>2017-08-18T03:17:21.000Z</published>
-    <updated>2017-08-18T06:27:46.710Z</updated>
+    <updated>2017-08-18T08:12:26.062Z</updated>
     
     <content type="html"><![CDATA[<p>本文主要对 CSS 布局中常见的经典问题进行简单说明，并提供相关解决方案的参考链接，涉及到三栏式布局，负 margin，清除浮动，居中布局，响应式设计，Flexbox 布局，等等。</p>
 <p>##CSS 基础知识</p>
@@ -30,8 +30,7 @@
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started" target="_blank" rel="external">MDN - CSS入门教程</a>: MDN 的官方文档</li>
 <li><a href="http://zh.learnlayout.com/" target="_blank" rel="external">学习 CSS 布局</a>：排版和配色特别舒服，简短但不深入，适合概览入门</li>
 </ul>
-<p>##CSS 定位问题</p>
-<p>主要就是经典的绝对定位，相对定位问题。</p>
+<p>##CSS 定位问题<br><a id="more"></a><br>主要就是经典的绝对定位，相对定位问题。</p>
 <ul>
 <li><a href="http://www.barelyfitz.com/screencast/html-training/css/positioning/" target="_blank" rel="external">10个文档学布局</a>：通过十个例子讲解布局，主要涉及相对布局，绝对布局，浮动。</li>
 <li><a href="http://ife.baidu.com/note/detail/id/662" target="_blank" rel="external">百度前端学院笔记</a> - 理解绝对定位：文章本身一般，几篇参考文献比较详细</li>
@@ -183,7 +182,11 @@
 &lt;p&gt;##CSS 基础知识&lt;/p&gt;
 &lt;p&gt;下面几个入门教程不错：&lt;/p&gt;
 &lt;ul&gt;
-
+&lt;li&gt;&lt;a href=&quot;http://www.imooc.com/learn/9&quot;&gt;幕课网 - HTML+CSS基础课程&lt;/a&gt;：偏基础，可以在线练习和预览&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Getting_started&quot;&gt;MDN - CSS入门教程&lt;/a&gt;: MDN 的官方文档&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://zh.learnlayout.com/&quot;&gt;学习 CSS 布局&lt;/a&gt;：排版和配色特别舒服，简短但不深入，适合概览入门&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;##CSS 定位问题&lt;br&gt;
     
     </summary>
     
